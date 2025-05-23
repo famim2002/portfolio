@@ -28,7 +28,7 @@ const LiveDate = () => {
     }, []);
 
     return (
-        <div className="flex items-center justify-center pt-2  md:pt-10  lg:pt-10 ">
+        <div className="flex items-center justify-center pt-2  md:pt-5  lg:pt-10 ">
             <div className="text-white text-5xl md:text-6xl font-bold  rounded-lg " >
                 <h3 className=' flex items-end gap-3'>
                     <span className='text-[150px] md:text-[180px] lg:text-[220px]  xl:text-[280px] text-secondaryColor font-headerFont md:w-[150px] lg:w-[200px] xl:w-[300px]'> {currentDay} </span>

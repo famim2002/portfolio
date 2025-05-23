@@ -7,7 +7,7 @@ const Banner = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-5 h-[calc(100dvh-90px)]">
         <div className="flex flex-col">
           {/* This LiveDate will show only before lg */}
-          <div className="mt-5 block lg:hidden">
+          <div className="mt-5 block ">
             <h3 className="nav-li-css mt-auto text-[35px] w-fit font-headerFont text-amber-50 bg-[#00000065] px-2 py-1 rounded">
               creative
             </h3>
@@ -19,7 +19,7 @@ const Banner = () => {
 
           <div className="origin-top-left mt-auto">
             <h1
-              className="text-[calc(10dvh+5px)] sm:text-[calc(5dvh+50px)] md:text-[calc(5dvh+70px)] lg:text-[calc(5dvh+110px)] xl:text-[calc(5dvh+130px)] 2xl:text-[calc(5dvh+180px)]  pt-5 sm:pt-10 md:pt-20 leading-20 sm:leading-35 sm:text-center md:leading-42   lg:leading-52 lg:text-left bg-[#00000028]"
+              className="text-[calc(10dvh+5px)] sm:text-[calc(5dvh+50px)] md:text-[calc(5dvh+70px)] lg:text-[calc(5dvh+110px)] xl:text-[calc(5dvh+130px)] 2xl:text-[calc(5dvh+180px)]  pt-5 sm:pt-10 md:pt-10 leading-20 sm:leading-35 sm:text-center md:leading-38  lg:leading-42 xl:leading-52 lg:text-left bg-[#00000028]"
               style={{
                 fontFamily: "Spacema",
                 color: "#f7f6f5",
@@ -44,11 +44,12 @@ const Banner = () => {
           </div>
 
           <div className="pt-5 flex">
-            <h2 className="text-white mx-auto lg:ml-auto text-[calc(2dvh+10px)] font-headerFont  max-w-2xl bg-[#00000028]">
-              <span className="text-transparent">kdskadsa</span> Lorem ipsum
-              dolor sit amet consectetur adipisicing elit. Facilis distinctio
-              dolorum ipsum iusto illum! Maiores, accusantium. Numquam
-              reiciendis in temporibus!
+            <h2 className="text-white mx-auto text-center lg:ml-auto text-[calc(2dvh+10px)] font-headerFont  max-w-2xl bg-[#00000028]">
+              <span className="text-transparent ">transparent gap</span> me
+              Famim Hayat, I am a react developer and UX/UI designer from{" "}
+              <span className="underline"> BANGLADESH</span>. I have many years of experience in
+              consulting in all areas of digital. I love minimal and brutalist
+              design. I love nature, pizza and art.
             </h2>
           </div>
         </div>
