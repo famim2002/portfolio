@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 
-const phrases = ["fhy","web","fhy", "React"];
+const phrases = ["404", "404", "404", "404"];
 
 class TextScramble {
   constructor(el) {
@@ -44,7 +44,7 @@ class TextScramble {
           char = this.randomChar();
           this.queue[i].char = char;
         }
-        output += `<span style="color: #fe0000;">${char}</span>`;
+        output += `<span style="color: #de3939;">${char}</span>`;
       } else {
         output += from;
       }
@@ -65,7 +65,7 @@ class TextScramble {
   }
 }
 
-const TextScrambleComponent = () => {
+const ErrorScrambleComponent = () => {
   const textRef = useRef(null);
 
   useEffect(() => {
@@ -86,11 +86,10 @@ const TextScrambleComponent = () => {
     <div className="flex items-center justify-center ">
       <div
         ref={textRef}
-        className="text-[28px] text-[#fafafa] font-light font-headerFont"
-        
+        className="text-6xl w-[120px] text-lightBrandColor font-light font-headerFont"
       ></div>
     </div>
   );
 };
 
-export default TextScrambleComponent;
+export default ErrorScrambleComponent;

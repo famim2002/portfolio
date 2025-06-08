@@ -11,7 +11,7 @@ const NavBar = () => {
 
   return (
     <>
-      <nav className=" mx-auto px-6 py-3">
+      <nav className=" mx-auto px-6 py-6">
         <div className="flex items-center justify-between">
           <div className="text-white font-bold text-xl">
             <Link to="/">
@@ -24,39 +24,39 @@ const NavBar = () => {
               <li className=" cursor pointer">
                 <Link
                   to="/"
-                  className="nav-li-css h-full text-[20px] px-4 text-white font-pixelFont md:text-[23px] lg:text-[30px] transition-all hover:text-black "
+                  className="nav-li-css h-full text-[20px] px-4 text-white font-headerFont md:text-[23px] lg:text-[30px] transition-all hover:text-black "
                 >
                   home
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/about"
-                  className=" nav-li-css h-full text-[20px] px-4  text-white font-pixelFont md:text-[23px] lg:text-[30px] transition-all hover:text-black "
+                  to="/aboutPage"
+                  className=" nav-li-css h-full text-[20px] px-4  text-white font-headerFont md:text-[23px] lg:text-[30px] transition-all hover:text-black "
                 >
                   about
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/service"
-                  className=" nav-li-css h-full text-[20px] px-4  text-white font-pixelFont md:text-[23px] lg:text-[30px] transition-all hover:text-black "
+                  to="/servicePage"
+                  className=" nav-li-css h-full text-[20px] px-4  text-white font-headerFont md:text-[23px] lg:text-[30px] transition-all hover:text-black "
                 >
                   services
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/projects"
-                  className=" nav-li-css h-full text-[20px] px-4  text-white font-pixelFont md:text-[23px] lg:text-[30px] transition-all hover:text-black "
+                  to="/projectsPage"
+                  className=" nav-li-css h-full text-[20px] px-4  text-white font-headerFont md:text-[23px] lg:text-[30px] transition-all hover:text-black "
                 >
                   demo
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/contact"
-                  className=" text-[20px] h-full px-2 text-white font-pixelFont bg-lightBrandColor hover:text-black md:text-[23px] lg:text-[30px]"
+                  to="/contactPage"
+                  className=" text-[20px] h-full px-2 text-white font-headerFont bg-lightBrandColor transition-all hover:text-black md:text-[23px] lg:text-[30px]"
                 >
                   contact
                 </Link>
@@ -78,7 +78,7 @@ const NavBar = () => {
             <li>
               <Link
                 to="/"
-                className=" block px-4 py-2 text-[30px] w-full text-white font-pixelFont  bg-primaryColor rounded nav-custom-shadow active:bg-lightBrandColor focus:text-lightBrandColor"
+                className=" block px-4 py-2 text-[30px] w-full text-white font-headerFont  bg-primaryColor rounded nav-custom-shadow active:bg-lightBrandColor focus:text-lightBrandColor"
               >
                 home
               </Link>
@@ -86,7 +86,7 @@ const NavBar = () => {
             <li>
               <Link
                 to="/about"
-                className="block px-4 py-2 text-[30px] w-full text-white font-pixelFont bg-primaryColor rounded nav-custom-shadow active:bg-lightBrandColor focus:text-lightBrandColor"
+                className="block px-4 py-2 text-[30px] w-full text-white font-headerFont bg-primaryColor rounded nav-custom-shadow active:bg-lightBrandColor focus:text-lightBrandColor"
               >
                 about
               </Link>
@@ -94,7 +94,7 @@ const NavBar = () => {
             <li>
               <Link
                 to="/service"
-                className="block px-4 py-2 text-[30px] w-full text-white font-pixelFont bg-primaryColor rounded nav-custom-shadow active:bg-lightBrandColor focus:text-lightBrandColor"
+                className="block px-4 py-2 text-[30px] w-full text-white font-headerFont bg-primaryColor rounded nav-custom-shadow active:bg-lightBrandColor focus:text-lightBrandColor"
               >
                 services
               </Link>
@@ -102,7 +102,7 @@ const NavBar = () => {
             <li>
               <Link
                 to="/projects"
-                className="block px-4 py-2 text-[30px] w-full text-white font-pixelFont bg-primaryColor rounded nav-custom-shadow active:bg-lightBrandColor focus:text-lightBrandColor"
+                className="block px-4 py-2 text-[30px] w-full text-white font-headerFont bg-primaryColor rounded nav-custom-shadow active:bg-lightBrandColor focus:text-lightBrandColor"
               >
                 demo
               </Link>
@@ -110,7 +110,7 @@ const NavBar = () => {
             <li>
               <Link
                 to="/contact"
-                className="bg-red-600 block w-full px-4 py-2 text-[30px] font-pixelFont text-white  rounded  active:bg-primaryColor transition-all hover:text-black "
+                className="bg-red-600 block w-full px-4 py-2 text-[30px] font-headerFont text-white  rounded transition-all active:bg-primaryColor transition-all hover:text-black "
               >
                 contact
               </Link>
