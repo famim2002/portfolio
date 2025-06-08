@@ -1,10 +1,14 @@
 import React from 'react'
+import Banner from '../components/home/Banner'
+import About from './About'
 
 const Home = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <Banner />
+      <About/>
+ 
+    </>
   )
 }
 
