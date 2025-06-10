@@ -6,11 +6,13 @@ import Error404 from "./pages/Error404";
 import Contact from "./pages/Contact";
 import Projetcs from "./pages/Projetcs";
 import Services from "./pages/Services";
+import MouseTrail from "./components/common-components/MouseTrail"
 
 function App() {
   return (
     <>
       <BrowserRouter>
+        <MouseTrail/>
         <Routes>
           <Route>
             <Route path="/" element={<Layout />}>
