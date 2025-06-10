@@ -5,28 +5,28 @@ const MouseTrail = () => {
   const circlesRef = useRef([]);
 
   const colors = [
-    "#ffb56b",
-    "#fdaf69",
-    "#f89d63",
-    "#f59761",
-    "#ef865e",
-    "#ec805d",
-    "#e36e5c",
-    "#df685c",
-    "#d5585c",
-    "#d1525c",
-    "#c5415d",
-    "#c03b5d",
-    "#b22c5e",
-    "#ac265e",
-    "#9c155f",
-    "#950f5f",
-    "#830060",
-    "#7c0060",
-    "#680060",
-    "#60005f",
-    "#48005f",
-    "#3d005e",
+    "#ffff",
+    "#f56e6e",
+    "#f75757",
+    "#f63c3c",
+    "#f73030",
+    "#ff1f1f",
+    "#fc1414",
+    "#fe0d0d",
+    "#ff0000",
+    "#d81212",
+    "#da0303",
+    "#cf0404",
+    "#b20202",
+    "#8e0202",
+    "#880202",
+    "#7e0303",
+    "#690101",
+    "#670202",
+    "#4b0000",
+    "#360000",
+    "#f73030",
+    "#ff0000",
   ];
 
   useEffect(() => {
@@ -37,14 +37,26 @@ const MouseTrail = () => {
 
     window.addEventListener("mousemove", handleMouseMove);
 
-    circlesRef.current.forEach((circle, index) => {
-      circle.x = 0;
-      circle.y = 0;
+    // Initialize circle positions
+    circlesRef.current.forEach((circle) => {
+      if (circle) {
+        circle.x = 0;
+        circle.y = 0;
+      }
     });
 
     const animateCircles = () => {
       let x = coords.current.x;
       let y = coords.current.y;
+
+      // Detect the element under the mouse
+      const element = document.elementFromPoint(x, y);
+      const computedColor = element
+        ? window.getComputedStyle(element).backgroundColor
+        : "";
+
+      // Check if it's red
+      const isHoveringRed = computedColor.includes("#fe0000");
 
       circlesRef.current.forEach((circle, index) => {
         if (!circle) return;
@@ -54,6 +66,12 @@ const MouseTrail = () => {
         circle.style.left = `${x - 12}px`;
         circle.style.top = `${y - 12}px`;
         circle.style.transform = `scale(${scale})`;
+
+        // Change color based on background
+        circle.style.backgroundColor = isHoveringRed
+          ? "#000"
+          : colors[index % colors.length];
+
         circle.x = x;
         circle.y = y;
 
