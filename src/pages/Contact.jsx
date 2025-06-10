@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <section>
       <div className="container">
-        <div className="h-dvh flex  mx-auto gap-5 justify-center items-center">
+        <div className="h-dvh flex  mx-auto gap-6 justify-center items-center">
           <h1 className="text-6xl  text-violet-600 font-semibold  font-headerFont items-center">
             this is Contact part
             
