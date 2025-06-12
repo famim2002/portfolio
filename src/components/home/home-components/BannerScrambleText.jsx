@@ -83,7 +83,7 @@ const BannerScrambleText = () => {
   }, []);
 
   return (
-    <div className="flex items-center  pt-10  justify-center">
+    <div className="flex items-center  sm:pt-10  justify-center">
       <div
         ref={textRef}
         className="text-[35px] sm:text-6xl md:text-7xl xl:text-[120px] text-[#fafafa] font-light font-headerFont"
