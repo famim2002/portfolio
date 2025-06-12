@@ -85,7 +85,7 @@ const NavBar = () => {
             </li>
             <li>
               <Link
-                to="/about"
+                to="/aboutPage"
                 className="block px-4 py-2 text-[30px] w-full text-white font-headerFont bg-primaryColor rounded nav-custom-shadow active:bg-lightBrandColor focus:text-lightBrandColor"
               >
                 about
@@ -93,7 +93,7 @@ const NavBar = () => {
             </li>
             <li>
               <Link
-                to="/service"
+                to="/servicePage"
                 className="block px-4 py-2 text-[30px] w-full text-white font-headerFont bg-primaryColor rounded nav-custom-shadow active:bg-lightBrandColor focus:text-lightBrandColor"
               >
                 services
@@ -101,7 +101,7 @@ const NavBar = () => {
             </li>
             <li>
               <Link
-                to="/projects"
+                to="/projectsPage"
                 className="block px-4 py-2 text-[30px] w-full text-white font-headerFont bg-primaryColor rounded nav-custom-shadow active:bg-lightBrandColor focus:text-lightBrandColor"
               >
                 demo
@@ -109,7 +109,7 @@ const NavBar = () => {
             </li>
             <li>
               <Link
-                to="/contact"
+                to="/contactPage"
                 className="bg-red-600 block w-full px-4 py-2 text-[30px] font-headerFont text-white  rounded transition-all active:bg-primaryColor transition-all hover:text-black "
               >
                 contact

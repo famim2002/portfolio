@@ -2,9 +2,21 @@ import React from 'react'
 
 const Banner = () => {
   return (
-    <section>
-      <h2 className='flex justify-center text-6xl text-white'>this is banner part</h2>
-      <p className='text-white'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur fuga dicta dignissimos eligendi deserunt magni magnam quibusdam facilis, quaerat repellat neque tempore obcaecati quidem totam ut, odit laboriosam placeat, ad ea architecto sit nam beatae. Laudantium rem possimus nobis non voluptas doloremque et? Molestias dolorem assumenda accusamus quisquam, ipsam sed sequi exercitationem! Assumenda aut suscipit rerum totam tenetur voluptate hic dolor fugiat commodi repudiandae saepe quia animi modi, perspiciatis voluptatum nihil quidem vitae earum est autem possimus porro consequuntur distinctio soluta. Enim numquam in architecto magnam dolor quo? Molestiae nihil et fugit rem eaque quam eligendi beatae iste, hic, similique magnam quod aliquid exercitationem voluptatibus iure eius veritatis corrupti blanditiis. Ut nihil assumenda earum quos dolor sequi molestiae beatae corrupti, sed expedita omnis unde optio numquam repellat minus ea harum alias iure repudiandae fugit atque! Distinctio quam tenetur a iure illo corrupti repellendus, quia facere? Ut ducimus cupiditate odit quo quos architecto quidem, assumenda a illo aut? Sed aliquam voluptates delectus, ab temporibus, magni ipsa deserunt quisquam eum illo nihil ex vero quis molestias maxime? Tempora, mollitia ab cupiditate asperiores cumque doloremque repudiandae commodi aliquid nulla, quod quia recusandae. Error non ipsum repellendus iusto maiores fugit rem, recusandae hic quisquam, temporibus aspernatur fuga repellat odit saepe nihil ratione est? Maxime cum, quasi voluptatum mollitia dolor atque natus iusto commodi, ducimus, nemo repudiandae incidunt nostrum doloremque. Blanditiis mollitia quod quibusdam qui adipisci explicabo expedita, vitae perspiciatis nemo voluptas enim, illo similique sapiente autem itaque quam asperiores laboriosam incidunt aliquid ipsum architecto ut nam voluptatum aperiam. Consequuntur, sed quaerat? Quod totam rerum ullam magni quis illo aspernatur obcaecati perspiciatis, officia necessitatibus eligendi maxime cum, nam, reprehenderit repellat. Sit repudiandae ullam a sint, rerum eos saepe est esse beatae ad maxime, nihil asperiores voluptas amet illo at inventore vero animi sed possimus! Quis maxime laudantium repudiandae molestias sit iste soluta eos excepturi quidem, natus, cum sapiente omnis, cupiditate aut vitae. Cupiditate quibusdam necessitatibus eveniet provident esse ab, hic delectus deleniti ipsa quidem! Fuga, voluptate ducimus id dicta molestiae consequatur quod voluptatum tempore suscipit temporibus veniam quibusdam ratione, voluptatem rem, beatae voluptatibus architecto veritatis quo harum nisi inventore eos vel minima! Laboriosam asperiores illo voluptas, quod et impedit assumenda. Autem consequatur tempora cupiditate ipsa, eos minus voluptate quasi, vero ipsum temporibus, et dolorum assumenda cum aspernatur suscipit magni dolore nisi recusandae maiores perferendis necessitatibus quis? Vero pariatur id quibusdam sint voluptatum animi beatae tempora, voluptatem neque a ut non provident tempore, esse impedit fugit perspiciatis voluptates, iusto expedita error cum odit magni veniam aperiam. Deserunt iure ullam maiores debitis expedita rerum. Cupiditate vero rerum voluptates. Quam, totam porro non officiis, repellat voluptas ab aliquid cum dignissimos, corporis omnis necessitatibus. Officia inventore adipisci iure quae quia? Est quae officiis voluptas enim nulla saepe quidem iusto obcaecati qui dicta dolorem reprehenderit magnam, ipsum nam temporibus. Voluptas qui maiores distinctio et minima, eius nesciunt perspiciatis facilis, deserunt consectetur, reiciendis eos nostrum. Nobis, sed fugiat accusantium officiis corporis nihil temporibus, amet veniam, ipsum voluptatum adipisci minus sequi dolore.</p>
+    <section className="px-3">
+      <div className=" py-16">
+        {" "}
+        <h2 className="flex justify-center text-6xl text-white">
+          this is banner part
+        </h2>
+        <p className="text-black font-headerFont text-6xl">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta,
+          error.
+        </p>
+        <p className="text-white font-headerFont text-6xl">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta,
+          error.
+        </p>
+      </div>
     </section>
   );
 }
