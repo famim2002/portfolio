@@ -39,6 +39,7 @@
   
   .nav-li-css {
     position: relative;
+    z-index: 20;
   }
   
   .nav-li-css::after {

@@ -24,7 +24,7 @@ const NavBar = () => {
               <li className=" cursor pointer">
                 <Link
                   to="/"
-                  className="nav-li-css h-full text-[20px] px-4 text-white font-headerFont md:text-[23px] lg:text-[30px] transition-all hover:text-black "
+                  className="nav-li-css h-full text-[20px] px-4 text-white font-headerFont md:text-[23px] lg:text-[30px] transition-all  "
                 >
                   home
                 </Link>
@@ -32,7 +32,7 @@ const NavBar = () => {
               <li>
                 <Link
                   to="/aboutPage"
-                  className=" nav-li-css h-full text-[20px] px-4  text-white font-headerFont md:text-[23px] lg:text-[30px] transition-all hover:text-black "
+                  className=" nav-li-css h-full text-[20px] px-4  text-white font-headerFont md:text-[23px] lg:text-[30px] transition-all  "
                 >
                   about
                 </Link>
@@ -40,7 +40,7 @@ const NavBar = () => {
               <li>
                 <Link
                   to="/servicePage"
-                  className=" nav-li-css h-full text-[20px] px-4  text-white font-headerFont md:text-[23px] lg:text-[30px] transition-all hover:text-black "
+                  className=" nav-li-css h-full text-[20px] px-4  text-white font-headerFont md:text-[23px] lg:text-[30px] transition-all  "
                 >
                   services
                 </Link>
@@ -48,7 +48,7 @@ const NavBar = () => {
               <li>
                 <Link
                   to="/projectsPage"
-                  className=" nav-li-css h-full text-[20px] px-4  text-white font-headerFont md:text-[23px] lg:text-[30px] transition-all hover:text-black "
+                  className=" nav-li-css h-full text-[20px] px-4  text-white font-headerFont md:text-[23px] lg:text-[30px] transition-all "
                 >
                   demo
                 </Link>
