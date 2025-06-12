@@ -5,6 +5,12 @@
   color: white;    /* highlighted text color */
 }
 
+section{
+  height: 100dvh;
+}
+
+
+
 
 @utility container {
     margin: 0 auto;
@@ -64,7 +70,7 @@
   }
   
   .banner-custom-height {
-    height: calc(100dvh - 100px);
+    height: calc(100dvh - 90px);
     margin: auto;
     line-height: 93dvh;
   }
