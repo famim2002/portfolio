@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+*::selection {
+  background: #fe0000; /* highlight background color */
+  color: white;    /* highlighted text color */
+}
+
 
 @utility container {
     margin: 0 auto;

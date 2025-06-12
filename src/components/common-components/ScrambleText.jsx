@@ -86,7 +86,7 @@ const TextScrambleComponent = () => {
     <div className="flex items-center justify-center ">
       <div
         ref={textRef}
-        className="text-[28px] text-[#fafafa] font-light font-headerFont"
+        className="text-[32px] text-[#fafafa] font-light font-headerFont"
         
       ></div>
     </div>
