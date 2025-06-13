@@ -1,6 +1,6 @@
 import React from 'react'
-import Header from '../../common-components/Header'
-import AboutCard from '../../about/about-components/AboutCard'
+import Header from '../common-components/Header'
+import AboutCard from '../about/about-components/AboutCard'
 import { FaUserGraduate } from 'react-icons/fa'
 import { TbCircleLetterIFilled } from 'react-icons/tb'
 import { SiInternetcomputer } from 'react-icons/si'
@@ -12,7 +12,7 @@ const AboutMe = () => {
         <div>
           <Header header={"about me"} className="text-black" />
         </div>
-        <div className="grid grid-cols-2 place-items-center gap-10">
+        <div className="grid grid-cols-2 place-items-center gap-10 pt-5">
           <div className="grid  md:grid-cols-3 gap-5 place-items-center justify-items-between">
             <AboutCard icon={<TbCircleLetterIFilled />} tag={"introduction"} />
             <AboutCard icon={<FaUserGraduate />} tag={"education"} />
