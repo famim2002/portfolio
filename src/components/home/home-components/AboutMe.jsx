@@ -7,12 +7,12 @@ import { SiInternetcomputer } from 'react-icons/si'
 
 const AboutMe = () => {
   return (
-    <section className="px-6 sm:px-3 bg-brandColor">
+    <section className=" md:h-dvh py-10 px-6 sm:px-3 bg-brandColor">
       <div className="grid grid-cols-1 place-items-center gap-10">
         <div>
           <Header header={"about me"} className="text-black" />
         </div>
-        <div className="grid  md: grid-cols-3 gap-5 place-items-center justify-items-between">
+        <div className="grid  md:grid-cols-3 gap-5 place-items-center justify-items-between">
           <AboutCard icon={<TbCircleLetterIFilled /> } tag={"introduction"} />
           <AboutCard icon={<FaUserGraduate />} tag={"education"} />
           <AboutCard icon={<SiInternetcomputer  />} tag={"skills"} />

@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = ({ tag, icon }) => {
   return (
-    <div className="relative w-[240px] h-[330px] mx-auto mt-24 rounded-2xl overflow-hidden shadow-[0_8px_28px_-9px_rgba(0,0,0,0.45)] bg-transparent transition-all group border-b-4  border-b-transparent hover:border-b-white">
+    <div className="relative w-[240px] h-[330px] mx-auto mt-24 rounded-2xl overflow-hidden shadow-[0_8px_28px_-9px_rgba(0,0,0,0.45)] bg-transparent transition-all group border-b-4  border-b-transparent hover:border-b-white active:bg-white">
       {/* Wave elements with faster animation */}
       <div
         className="absolute w-[540px] h-[700px] opacity-60 left-0 top-0 -ml-1/2 -mt-[70%] rounded-[40%] bg-gradient-to-tr from-[#000000] via-[#19191b] to-[#121313]"
