@@ -7,10 +7,10 @@ const BrandButtonDark = () => {
         Click Me
       </button>
 
-      {/* Bottom border animation */}
+   
       <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#0f0e0e] transition-all duration-500 group-hover:w-full z-20" />
 
-      {/* Background fill animation */}
+    
       <span className="absolute left-0 bottom-0 w-full h-0 bg-[#0f0e0e] transition-all duration-500 delay-200 group-hover:h-full z-0" />
     </div>
   );
