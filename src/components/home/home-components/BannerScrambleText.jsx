@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 
-const phrases = ["web-developer","react-developer","front-end", "developer"];
+const phrases = ["famim hayat","a professional","a web-developer","a react-developer","a front-end", "developer"];
 
 class TextScramble {
   constructor(el) {
