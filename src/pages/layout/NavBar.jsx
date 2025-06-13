@@ -56,7 +56,7 @@ const NavBar = () => {
               <li>
                 <Link
                   to="/contactPage"
-                  className=" text-[20px] h-full px-2 text-white font-headerFont bg-lightBrandColor transition-all hover:text-black md:text-[23px] lg:text-[30px]"
+                  className=" text-[20px] h-full px-2 text-white font-headerFont bg-brandColor transition-all hover:text-black md:text-[23px] lg:text-[30px]"
                 >
                   contact
                 </Link>
@@ -78,7 +78,7 @@ const NavBar = () => {
             <li>
               <Link
                 to="/"
-                className=" block px-4 py-2 text-[30px] w-full text-white font-headerFont  bg-primaryColor rounded nav-custom-shadow active:bg-lightBrandColor focus:text-lightBrandColor"
+                className=" block px-4 py-2 text-[30px] w-full text-white font-headerFont  bg-primaryColor rounded nav-custom-shadow active:bg-brandColor focus:text-brandColor"
               >
                 home
               </Link>
@@ -86,7 +86,7 @@ const NavBar = () => {
             <li>
               <Link
                 to="/aboutPage"
-                className="block px-4 py-2 text-[30px] w-full text-white font-headerFont bg-primaryColor rounded nav-custom-shadow active:bg-lightBrandColor focus:text-lightBrandColor"
+                className="block px-4 py-2 text-[30px] w-full text-white font-headerFont bg-primaryColor rounded nav-custom-shadow active:bg-brandColor focus:text-brandColor"
               >
                 about
               </Link>
@@ -94,7 +94,7 @@ const NavBar = () => {
             <li>
               <Link
                 to="/servicePage"
-                className="block px-4 py-2 text-[30px] w-full text-white font-headerFont bg-primaryColor rounded nav-custom-shadow active:bg-lightBrandColor focus:text-lightBrandColor"
+                className="block px-4 py-2 text-[30px] w-full text-white font-headerFont bg-primaryColor rounded nav-custom-shadow active:bg-brandColor focus:text-brandColor"
               >
                 services
               </Link>
@@ -102,7 +102,7 @@ const NavBar = () => {
             <li>
               <Link
                 to="/projectsPage"
-                className="block px-4 py-2 text-[30px] w-full text-white font-headerFont bg-primaryColor rounded nav-custom-shadow active:bg-lightBrandColor focus:text-lightBrandColor"
+                className="block px-4 py-2 text-[30px] w-full text-white font-headerFont bg-primaryColor rounded nav-custom-shadow active:bg-brandColor focus:text-brandColor"
               >
                 demo
               </Link>

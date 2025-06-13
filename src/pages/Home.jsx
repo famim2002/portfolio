@@ -1,12 +1,13 @@
 import React from 'react'
 import Banner from '../components/home/Banner'
-import About from './About'
+
+import AboutMe from '../components/home/home-components/AboutMe'
 
 const Home = () => {
   return (
     <>
       <Banner />
-      {/* <About/> */}
+    <AboutMe/>
  
     </>
   )
