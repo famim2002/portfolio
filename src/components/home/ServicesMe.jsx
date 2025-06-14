@@ -8,11 +8,9 @@ const ServicesMe = () => {
       <div className=" pt-10">
         <InfiniteMarquee />
       </div>
-      <div className="px-3 grid grid-cols-3">
+      <div className="px-3 grid grid-col-1 sm:grid-col-2 lg:grid-cols-3">
         <Header header={"services"} className={"text-white "} />
-        <div>
-          
-        </div>
+        <div></div>
       </div>
     </section>
   );
