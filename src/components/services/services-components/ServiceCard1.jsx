@@ -25,13 +25,11 @@ const ServiceCard1 = ({ tag,subTag  }) => {
 
       {/* Content */}
       <div className="h-full absolute pt-10 lg:top-24 left-0 right-0 text-[25px] text-center text-white font-headerFont ">
-        <div className="flex flex-col sm:flex-row lg:flex-col gap-5 items-center justify-center text-sm font-light gap-10 md:gap-20">
+        <div className="flex flex-col sm:flex-row lg:flex-col  items-center justify-center text-sm font-light gap-10 md:gap-20">
           <h3 className="flex flex-col  justify-center text-4xl sm:text-5xl md:gap-2">
             {tag} <span>{subTag}</span>
           </h3>
-          <p className="text-3xl lg:text-5xl p-1 text-white font-headerFont underline  group-hover:text-red-600 group-hover:bg-amber-50">
-            CLICK HERE
-          </p>
+        
         </div>
       </div>
 
