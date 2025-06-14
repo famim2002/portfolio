@@ -37,7 +37,7 @@ const AboutWaveAnimation = () => {
             href="#gentle-wave"
             x="48"
             y="0"
-            fill=""
+            fill="rgba(255,255,255,0.3)"
             style={{
               animation:
                 "move-forever 7s cubic-bezier(0.55,0.5,0.45,0.5) infinite",
@@ -48,7 +48,7 @@ const AboutWaveAnimation = () => {
             href="#gentle-wave"
             x="48"
             y="3"
-            fill="rgba(255,255,255,0.5)"
+            fill="#fe000069"
             style={{
               animation:
                 "move-forever 10s cubic-bezier(0.55,0.5,0.45,0.5) infinite",
@@ -70,7 +70,7 @@ const AboutWaveAnimation = () => {
             href="#gentle-wave"
             x="48"
             y="7"
-            fill="#ffffff"
+            fill="#fe0000"
             style={{
               animation:
                 "move-forever 20s cubic-bezier(0.55,0.5,0.45,0.5) infinite",
