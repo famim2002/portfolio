@@ -4,10 +4,12 @@ import AboutCard from '../about/about-components/AboutCard'
 import { FaUserGraduate } from 'react-icons/fa'
 import { TbCircleLetterIFilled } from 'react-icons/tb'
 import { SiInternetcomputer } from 'react-icons/si'
+import AboutWaveAnimation from './AboutWaveAnimation'
 
 const AboutMe = () => {
   return (
     <section className=" md:h-dvh py-10 px-6 sm:px-3 bg-brandColor">
+      <AboutWaveAnimation/>
       <div className='container'>
         <div>
           <Header header={"about me"} className="text-black" />
