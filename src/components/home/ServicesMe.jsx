@@ -12,16 +12,15 @@ const ServicesMe = () => {
         <InfiniteMarquee />
       </div>
       <section className="h-dvh">
-        
-        <div className="h-full px-3 grid grid-col-1 sm:grid-col-2 lg:grid-cols-3 gap-2">
-          <div className=" gird grid-cols-1 place-items-center  overflow-hidden">
+        <div className="h-full px-3 grid grid-col-1 sm:grid-col-2 lg:grid-cols-3 gap-5 ">
+          <div className="border-2 border-  gird grid-cols-1 place-items-center  overflow-hidden">
             <Header header={"services"} className={"text-white mb-5"} />
             <ServiceCard1 tag={"ui/ux"} subTag={"design"} />
           </div>
-          <div className="">
+          <div className="border-2 border-white ">
             <ServiceCard1 tag={"front-end"} subTag={"development"} />
           </div>
-          <div className="">
+          <div className="border-2 border-white ">
             <ServiceCard1 tag={"back-end"} subTag={"development"} />
           </div>
         </div>
