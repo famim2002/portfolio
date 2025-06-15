@@ -19,7 +19,7 @@ const ContactCard = () => {
       [name]: value,
     }));
 
-    // Clear individual error
+    // Clear individual error as user types
     if (value.trim() !== "") {
       setErrors((prev) => ({ ...prev, [name]: "" }));
     }
@@ -29,8 +29,7 @@ const ContactCard = () => {
     const newErrors = {};
     if (formData.name.trim() === "") newErrors.name = "Full name is required.";
     if (formData.email.trim() === "") newErrors.email = "Email is required.";
-    if (formData.phone.trim() === "")
-      newErrors.phone = "Phone number is required.";
+    if (formData.phone.trim() === "") newErrors.phone = "Phone is required.";
     if (formData.address.trim() === "")
       newErrors.address = "Address is required.";
     return newErrors;
@@ -44,6 +43,8 @@ const ContactCard = () => {
     } else {
       setErrors({});
       console.log("Form submitted:", formData);
+      // Optional: clear form
+      setFormData({ name: "", email: "", phone: "", address: "" });
     }
   };
 
@@ -51,11 +52,11 @@ const ContactCard = () => {
     `w-full text-white text-2xl md:text-3xl p-2 font-regularFont outline-none border-b-2 transition duration-300 mt-4 ${
       errors[field]
         ? "bg-red-600 border-red-600 placeholder-white"
-        : "bg-[#21212155] border-transparent focus:border-white"
+        : "bg-[#212121c9] border-transparent focus:border-white"
     }`;
 
   return (
-    <div className="p-3 sm:p-5 md:p-10 h-auto w-full max-w-[900px] rounded-[30px] mx-auto bg-[#2121212a]">
+    <div className="p-3 sm:p-5 md:p-10 h-auto w-full max-w-[900px] rounded-[30px] mx-auto bg-[#21212193]">
       <div className="h-full w-full">
         <h3 className="text-4xl md:text-6xl font-headerFont text-white underline decoration-red-700">
           let's do business together.
@@ -66,50 +67,44 @@ const ContactCard = () => {
               <input
                 type="text"
                 name="name"
-                placeholder="Full Name"
                 value={formData.name}
                 onChange={handleChange}
+                placeholder={errors.name ? errors.name : "Full Name"}
                 className={inputClass("name")}
+                autoComplete="off"
               />
-              {errors.name && (
-                <p className="text-red-400 mt-2 text-sm">{errors.name}</p>
-              )}
 
               <input
                 type="email"
                 name="email"
-                placeholder="Email Address"
                 value={formData.email}
                 onChange={handleChange}
+                placeholder={errors.email ? errors.email : "Email Address"}
                 className={inputClass("email")}
+                autoComplete="off"
               />
-              {errors.email && (
-                <p className="text-red-400 mt-2 text-sm">{errors.email}</p>
-              )}
 
               <input
                 type="tel"
                 name="phone"
-                placeholder="Phone Number"
                 value={formData.phone}
                 onChange={handleChange}
+                placeholder={errors.phone ? errors.phone : "Phone Number"}
                 className={inputClass("phone")}
+                autoComplete="off"
               />
-              {errors.phone && (
-                <p className="text-red-400 mt-2 text-sm">{errors.phone}</p>
-              )}
 
               <input
                 type="text"
                 name="address"
-                placeholder="Present Address"
                 value={formData.address}
                 onChange={handleChange}
+                placeholder={
+                  errors.address ? errors.address : "Present Address"
+                }
                 className={inputClass("address")}
+                autoComplete="off"
               />
-              {errors.address && (
-                <p className="text-red-400 mt-2 text-sm">{errors.address}</p>
-              )}
             </div>
 
             <div className="mt-6">
