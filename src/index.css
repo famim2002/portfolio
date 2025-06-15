@@ -2,72 +2,84 @@
 
 *::selection {
   background: #fe0000; /* highlight background color */
-  color: white;    /* highlighted text color */
+  color: white; /* highlighted text color */
 }
 
-
-
-
 @utility container {
-    margin: 0 auto;
-  }
-  
-  @theme {
-    --color-primaryColor: #0f0e0e;
-    --color-secondaryColor: #f2f2f2;
-    --color-brandColor: #fe0000;
-    
-  
-    --font-headerFont: "Cal Sans", sans-serif;
-    --font-regularFont: "Ubuntu", sans-serif;
-  }
-  
-  a {
-    display: inline-block;
-  }
-  
-  .con {
-    color: #c60101;
-  }
-  
-  body {
-    background-color: #090909;
-  }
-  
-  .nav-custom-shadow {
-    box-shadow: rgb(0, 0, 0) 0px 2px 4px, rgba(0, 0, 0, 0.666) 0px 7px 13px -3px,
-      rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-  }
-  
-  .nav-li-css {
-    position: relative;
-    z-index: 20;
-  }
-  
-  .nav-li-css::after {
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 100%;
-  
-    left: 0;
-    background-color: #fe0000;
-    transition: all linear 0.15s;
-    z-index: -10;
-  }
-  
-  .nav-li-css:hover::after {
-    width: 100%;
-  }
-  
-  .banner-custom-shadow {
-    box-shadow: inset 0px -21px 29px 0px rgba(235, 6, 6, 0.346),
-      10px 22px -10px 20px rgba(211, 7, 7, 0.507);
-  }
-  
-  .banner-custom-height {
-    height: calc(100dvh - 90px);
-    margin: auto;
-    line-height: 93dvh;
-  }
+  margin: 0 auto;
+}
 
+@theme {
+  --color-primaryColor: #0f0e0e;
+  --color-secondaryColor: #f2f2f2;
+  --color-brandColor: #fe0000;
+
+  --font-headerFont: "Cal Sans", sans-serif;
+  --font-regularFont: "Ubuntu", sans-serif;
+}
+
+a {
+  display: inline-block;
+}
+
+.con {
+  color: #c60101;
+}
+
+body {
+  background-color: #090909;
+}
+
+.nav-custom-shadow {
+  box-shadow: rgb(0, 0, 0) 0px 2px 4px, rgba(0, 0, 0, 0.666) 0px 7px 13px -3px,
+    rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.nav-li-css {
+  position: relative;
+  z-index: 20;
+}
+
+.nav-li-css::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+
+  left: 0;
+  background-color: #fe0000;
+  transition: all linear 0.15s;
+  z-index: -10;
+}
+
+.nav-li-css:hover::after {
+  width: 100%;
+}
+
+.banner-custom-shadow {
+  box-shadow: inset 0px -21px 29px 0px #eb060658,
+    10px 22px -10px 20px rgba(211, 7, 7, 0.507);
+}
+
+.banner-custom-height {
+  height: calc(100dvh - 90px);
+  margin: auto;
+  line-height: 93dvh;
+}
+
+/* react-map-css */
+
+.map-selected {
+  fill: #e4e0e0;
+}
+
+.map-unselected {
+  fill: #eb060658  ;
+}
+
+.map-selected:hover,
+.map-unselected:hover {
+  cursor: pointer;
+}
+
+/* react-map-css */

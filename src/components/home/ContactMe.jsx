@@ -1,16 +1,18 @@
 import React from "react";
-import SocialLinks from "../common-components/SocialBar"
-
-
-
-
+import WorldMapComponent from "./home-components/WorldMap";
 
 const ContactMe = () => {
   return (
-    <section className="px-3 h-dvh">
+    <section className="px-3 h-dvh overflow-hidden">
       <div className="container">
-       <SocialLinks/>
-      </div>
+        
+          <div className="h-full">
+            <WorldMapComponent />
+         <social
+       
+          </div>
+        </div>
+      
     </section>
   );
 };
