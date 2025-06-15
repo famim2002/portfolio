@@ -2,9 +2,9 @@ import React from "react";
 
 const BrandButton = () => {
   return (
-    <div className="relative inline-block group overflow-hidden">
-      <button className="relative z-10 px-6 py-4 text-white uppercase text-[17px] font-medium transition-all duration-500 group-hover:text-white">
-        Hover me
+    <div className="relative inline-block group overflow-hidden bg-primaryColor font-headerFont mt-10">
+      <button type="submit" className="relative z-10 px-6 py-4 text-white uppercase text-[17px] font-medium transition-all duration-500 group-hover:text-white">
+        submit
       </button>
 
  

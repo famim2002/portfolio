@@ -83,3 +83,12 @@ body {
 }
 
 /* react-map-css */
+
+.contact_back {
+  background: url("../public/contact-back.jpg") no-repeat center center fixed;
+  background-size: cover;
+  border-radius: 20px;
+  
+
+}
+
