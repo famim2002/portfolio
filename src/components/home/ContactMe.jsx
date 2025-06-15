@@ -1,14 +1,16 @@
-import React from 'react'
-import SocialButtons from './home-components/SocialBar'
+import React from "react";
+// import SocialBar from "./home-components/SocialBar"
+
+
 
 const ContactMe = () => {
   return (
-    <section className='px-3 h-dvh'>
-      <div className='container'>
-  <SocialButtons/>
+    <section className="px-3 h-dvh">
+      <div className="container">
+       {/* <SocialBar/> */}
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default ContactMe
+export default ContactMe;
