@@ -9,10 +9,9 @@
   --color-secondaryColor: # ;
   --color-textColor: # ;
 
-  --font-headerFont: ;
-  --font-regularFont: ;
+  --font-headerFont: "Righteous", sans-serif;
+  --font-regularFont: "Caudex", serif;
 }
-
 
 a{
   display: inline-block;
