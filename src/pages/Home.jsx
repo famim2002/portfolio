@@ -1,9 +1,18 @@
-import React from 'react'
+import React from "react";
+import Banner from "../components/Banner"
+
+import AboutMe from "../components/AboutMe"
 
 const Home = () => {
   return (
-    <div className='text-2xl text-black'>Home</div>
-  )
-}
+    <>
+      <Banner />
+      <AboutMe/>
+      
+  
+     
+    </>
+  );
+};
 
-export default Home
+export default Home;

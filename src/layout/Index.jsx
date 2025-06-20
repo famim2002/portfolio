@@ -4,11 +4,11 @@ import { Outlet } from 'react-router'
 
 const Layout = () => {
   return (
-      <>
-          <Nav />
-          <Outlet/>
+    <>
+      <Nav />
+      <Outlet />
     </>
-  )
+  );
 }
 
 export default Layout;

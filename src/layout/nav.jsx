@@ -9,7 +9,7 @@ const Nav = () => {
 
   return (
     <>
-      <nav className="  mx-auto px-6 py-6">
+      <nav className=" bg-[#0000002b] mx-auto px-6 py-6">
         <div className="flex items-center justify-between">
           <div>
             <h2 className="text-[35px] font-bold font-headerFont"> brand logo</h2>
@@ -19,7 +19,7 @@ const Nav = () => {
               <li className=" cursor pointer">
                 <Link
                   to="/"
-                  className="nav-li-css h-full text-[20px] px-4 text-black font-headerFont md:text-[23px] lg:text-[30px] transition-all  "
+                  className="nav-li-css h-full text-[20px] px-4 text-[#ffffff]  font-headerFont md:text-[23px] lg:text-[30px] transition-all  "
                 >
                   home
                 </Link>

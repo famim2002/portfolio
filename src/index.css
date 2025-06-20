@@ -1,20 +1,24 @@
 @import "tailwindcss";
 
-@utility container{
-   margin: 0 auto;
+@utility container {
+  margin: 0 auto;
 }
 
-@theme{
-  --color-primaryColor: # ;
-  --color-secondaryColor: # ;
-  --color-textColor: # ;
+@theme {
+  --color-primaryColor: #;
+  --color-secondaryColor: #;
+  --color-textColor: #;
 
   --font-headerFont: "Righteous", sans-serif;
   --font-regularFont: "Caudex", serif;
 }
 
-a{
+a {
   display: inline-block;
+}
+
+body {
+  background-color: wheat;
 }
 
 .nav-custom-shadow {
@@ -44,6 +48,9 @@ a{
   width: 100%;
 }
 
-body{
-  background-color: wheat;
+.banner-back {
+  background: url("../public/banner-back.png") no-repeat fixed center / cover;
+  border-radius: 20px;
+  
+  height: 100dvh;
 }
