@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@utility container{
+   margin: 0 auto;
+}
+
+@theme{
+  --color-primaryColor: # ;
+  --color-secondaryColor: # ;
+  --color-textColor: # ;
+
+  --font-headerFont: ;
+  --font-regularFont: ;
+}
+
+
+a{
+  display: inline-block;
+}
