@@ -13,7 +13,7 @@ const Nav = () => {
         <div className="flex items-center justify-between">
           <div>
             <h2 className="text-[35px] font-bold text-white bg-[#000000bf] font-headerFont">
-              {" "}
+             
               fhy
             </h2>
           </div>
