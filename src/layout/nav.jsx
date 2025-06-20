@@ -9,7 +9,7 @@ const Nav = () => {
 
   return (
     <>
-      <nav className=" bg-amber-300 mx-auto px-6 py-6">
+      <nav className="  mx-auto px-6 py-6">
         <div className="flex items-center justify-between">
           <div>
             <h2 className="text-[35px] font-bold font-headerFont"> brand logo</h2>
@@ -69,7 +69,7 @@ const Nav = () => {
         </div>
 
         <div className={`mobile-menu ${menuOpen ? "" : "hidden"} md:hidden`}>
-          <ul className="h-dvh mt-4 space-y-4">
+          <ul className=" my-4 space-y-4">
             <li>
               <Link
                 to="/"
@@ -80,7 +80,7 @@ const Nav = () => {
             </li>
             <li>
               <Link
-                to="/aboutPage"
+                to="/about"
                 className="block px-4 py-2 text-[30px] w-full text-black font-headerFont bg-primaryColor rounded nav-custom-shadow active:bg-brandColor focus:text-brandColor"
               >
                 about
@@ -88,7 +88,7 @@ const Nav = () => {
             </li>
             <li>
               <Link
-                to="/servicePage"
+                to="/services"
                 className="block px-4 py-2 text-[30px] w-full text-black font-headerFont bg-primaryColor rounded nav-custom-shadow active:bg-brandColor focus:text-brandColor"
               >
                 services
@@ -96,7 +96,7 @@ const Nav = () => {
             </li>
             <li>
               <Link
-                to="/projectsPage"
+                to="/demo"
                 className="block px-4 py-2 text-[30px] w-full text-black font-headerFont bg-primaryColor rounded nav-custom-shadow active:bg-brandColor focus:text-brandColor"
               >
                 demo
@@ -104,7 +104,7 @@ const Nav = () => {
             </li>
             <li>
               <Link
-                to="/contactPage"
+                to="/contact"
                 className="bg-red-600 block w-full px-4 py-2 text-[30px] font-headerFont text-black  rounded transition-all active:bg-primaryColor transition-all hover:text-black "
               >
                 contact
