@@ -1,9 +1,14 @@
 import React from 'react'
+import Nav from './nav'
+import { Outlet } from 'react-router'
 
-const Index = () => {
+const Layout = () => {
   return (
-    <div>Index</div>
+      <>
+          <Nav />
+          <Outlet/>
+    </>
   )
 }
 
-export default Index
+export default Layout;

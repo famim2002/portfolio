@@ -16,3 +16,29 @@
 a{
   display: inline-block;
 }
+
+.nav-custom-shadow {
+  box-shadow: rgb(0, 0, 0) 0px 2px 4px, rgba(0, 0, 0, 0.666) 0px 7px 13px -3px,
+    rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.nav-li-css {
+  position: relative;
+  z-index: 20;
+}
+
+.nav-li-css::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+
+  left: 0;
+  background-color: #fe0000;
+  transition: all linear 0.15s;
+  z-index: -10;
+}
+
+.nav-li-css:hover::after {
+  width: 100%;
+}
