@@ -14,18 +14,12 @@
   --font-tagFont: ;
 }
 
-
-
-
 @font-face {
-  font-family: 'Spacema';
-  src: url('../src/assets/fonts/Spacema-Black.otf') format('opentype');
-  font-weight: normal;
+  font-family: "Spacema";
+  src: url("../src/assets/fonts/Spacema-Black.otf") format("opentype");
+  font-weight: 900;
   font-style: normal;
 }
-
-
-
 
 a {
   display: inline-block;
@@ -36,7 +30,8 @@ body {
 }
 
 .nav-custom-shadow {
-  box-shadow: rgb(0, 0, 0) 0px 2px 4px, rgba(0, 0, 0, 0.666) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  box-shadow: rgb(0, 0, 0) 0px 2px 4px, rgba(0, 0, 0, 0.666) 0px 7px 13px -3px,
+    rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .nav-li-css {
@@ -65,8 +60,3 @@ body {
   border-radius: 20px;
   height: 100dvh;
 }
-
-
-
-
-
