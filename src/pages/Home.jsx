@@ -8,9 +8,6 @@ const Home = () => {
     <>
       <Banner />
       <AboutMe/>
-      
-  
-     
     </>
   );
 };

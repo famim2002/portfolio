@@ -11,7 +11,21 @@
 
   --font-headerFont: "Righteous", sans-serif;
   --font-regularFont: "Caudex", serif;
+  --font-tagFont: ;
 }
+
+
+
+
+@font-face {
+  font-family: 'Spacema';
+  src: url('../src/assets/fonts/Spacema-Black.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
 
 a {
   display: inline-block;
@@ -22,8 +36,7 @@ body {
 }
 
 .nav-custom-shadow {
-  box-shadow: rgb(0, 0, 0) 0px 2px 4px, rgba(0, 0, 0, 0.666) 0px 7px 13px -3px,
-    rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  box-shadow: rgb(0, 0, 0) 0px 2px 4px, rgba(0, 0, 0, 0.666) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .nav-li-css {
@@ -37,7 +50,6 @@ body {
   width: 0;
   height: 8%;
   top: 100%;
-
   left: 0;
   background-color: #ffff;
   transition: all linear 0.15s;
@@ -49,8 +61,12 @@ body {
 }
 
 .banner-back {
-  background: url("../public/banner-back.png") no-repeat fixed center / cover;
+  background: url("../public/back-main.png") no-repeat fixed center / cover;
   border-radius: 20px;
-  
   height: 100dvh;
 }
+
+
+
+
+

@@ -12,9 +12,9 @@ const Nav = () => {
       <nav className=" bg-[#0000002b] mx-auto px-6 py-6">
         <div className="flex items-center justify-between">
           <div>
-            <h2 className="text-[35px] font-bold text-white bg-[#000000bf] font-headerFont">
+            <h2 className="text-[25px] font-bold text-white bg-[#000000bf] font-headerFont">
              
-              fhy
+              famim hayat
             </h2>
           </div>
           <div className="hidden md:block">
