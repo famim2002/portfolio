@@ -8,10 +8,12 @@ const Banner = () => {
           <h2
             style={{
               fontFamily: "Spacema",
-              fontSize: "150px",
+              fontSize: "200px",
+              color: "#f4eee5",
+              letterSpacing: ".1px", // exaggerate for testing
             }}
           >
-            hello
+            hello 
           </h2>
         </div>
       </section>
