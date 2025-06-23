@@ -27,11 +27,11 @@ const AboutMe = () => {
       ref={sectionRef}
       className={`transition-all duration-1000 ease-in-out transform ${
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
-      } text-white text-xl bg-black min-h-screen flex items-center justify-center px-6`}
+      } text-white text-xl bg-[#0d0d0d] min-h-screen flex items-center justify-center px-6`}
     >
-      <div className="max-w-3xl">
-        <h2 className="text-4xl font-bold mb-6">About Me</h2>
-        <p className="leading-relaxed">
+      <div className="container">
+        
+        <p className="text-2xl  leading-relaxed font-regularFont text-textColor text-center">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti a reiciendis quaerat quia esse nam culpa at reprehenderit ipsam. Ipsa illo nostrum magni cupiditate aperiam sequi exercitationem perspiciatis nobis autem esse? Odio in aut temporibus, ad incidunt dolor tempora, iure, suscipit consequatur minus asperiores ducimus ipsam dolorum sint soluta beatae!
         </p>
       </div>

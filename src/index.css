@@ -5,7 +5,7 @@
 }
 
 @theme {
-  --color-primaryColor: #141414;
+  --color-primaryColor: #636262;
   --color-secondaryColor: #f0dfc6;
   --color-textColor: #f7f6f5;
 
@@ -26,7 +26,7 @@ a {
 }
 
 .ads {
-  background-color: #141414;
+  background-color: #636262;
 }
 
 .nav-custom-shadow {
