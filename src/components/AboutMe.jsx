@@ -32,7 +32,7 @@ const AboutMe = () => {
       <div className="max-w-3xl">
         <h2 className="text-4xl font-bold mb-6">About Me</h2>
         <p className="leading-relaxed">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero molestiae esse ullam animi fuga, officiis repellendus similique eaque voluptatem mollitia quisquam impedit porro hic, debitis numquam expedita libero nesciunt...
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti a reiciendis quaerat quia esse nam culpa at reprehenderit ipsam. Ipsa illo nostrum magni cupiditate aperiam sequi exercitationem perspiciatis nobis autem esse? Odio in aut temporibus, ad incidunt dolor tempora, iure, suscipit consequatur minus asperiores ducimus ipsam dolorum sint soluta beatae!
         </p>
       </div>
     </section>
