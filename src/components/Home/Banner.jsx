@@ -1,5 +1,6 @@
 import React from "react";
-import LiveDate from "./LiveDate";
+import LiveDate from "./LiveDate"
+
 
 const Banner = () => {
   return (
