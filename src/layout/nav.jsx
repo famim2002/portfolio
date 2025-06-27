@@ -9,11 +9,10 @@ const Nav = () => {
 
   return (
     <>
-      <nav className=" bg-[#0000002b] mx-auto px-6 py-6">
+      <nav className=" bg-[#0000002b] mx-auto px-6 py-6 border-b-1 border-[#ffffff4e]">
         <div className="flex items-center justify-between">
           <div>
             <h2 className="text-[25px] font-bold text-white bg-[#000000bf] font-headerFont">
-             
               famim hayat
             </h2>
           </div>
@@ -22,7 +21,7 @@ const Nav = () => {
               <li className=" cursor pointer">
                 <Link
                   to="/"
-                  className="nav-li-css h-full text-[20px] px-4 text-[#ffffff]  font-headerFont md:text-[23px] lg:text-[30px] transition-all  "
+                  className="nav-li-css h-full text-[20px] px-4 bg-[#00000040]  hover:bg-[#00000080] text-[#ffffff]  font-headerFont md:text-[23px] lg:text-[30px] transition-all  "
                 >
                   home
                 </Link>
@@ -30,7 +29,7 @@ const Nav = () => {
               <li>
                 <Link
                   to="/about"
-                  className=" nav-li-css h-full text-[20px] px-4  text-white font-headerFont md:text-[23px] lg:text-[30px] transition-all  "
+                  className=" nav-li-css h-full text-[20px] px-4 bg-[#00000040] hover:bg-[#00000080] text-white font-headerFont md:text-[23px] lg:text-[30px] transition-all  "
                 >
                   about
                 </Link>
@@ -38,7 +37,7 @@ const Nav = () => {
               <li>
                 <Link
                   to="/services"
-                  className=" nav-li-css h-full text-[20px] px-4  text-white font-headerFont md:text-[23px] lg:text-[30px] transition-all  "
+                  className=" nav-li-css h-full text-[20px] px-4 bg-[#00000040] hover:bg-[#00000080] text-white font-headerFont md:text-[23px] lg:text-[30px] transition-all  "
                 >
                   services
                 </Link>
@@ -46,7 +45,7 @@ const Nav = () => {
               <li>
                 <Link
                   to="/demo"
-                  className=" nav-li-css h-full text-[20px] px-4  text-white font-headerFont md:text-[23px] lg:text-[30px] transition-all "
+                  className=" nav-li-css h-full text-[20px] px-4 bg-[#00000040] hover:bg-[#00000080] text-white font-headerFont md:text-[23px] lg:text-[30px] transition-all "
                 >
                   demo
                 </Link>
@@ -54,7 +53,7 @@ const Nav = () => {
               <li>
                 <Link
                   to="/contact"
-                  className=" text-[20px] h-full px-2 text-white font-headerFont  bg-transparent transition-all  hover:bg-textColor   hover:text-primaryColor md:text-[23px] lg:text-[30px] "
+                  className=" text-[20px] h-full px-2 text-white font-headerFont  bg-[#00000040]  transition-all  hover:bg-textColor   hover:text-primaryColor md:text-[23px] lg:text-[30px] "
                 >
                   contact
                 </Link>

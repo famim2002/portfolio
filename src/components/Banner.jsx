@@ -8,12 +8,12 @@ const Banner = () => {
         <div className="flex flex-col">
           {/* This LiveDate will show only before lg */}
           <div className="mt-5 block ">
-            <h3 className="nav-li-css mt-auto text-[35px] w-fit font-headerFont text-amber-50 bg-[#00000065] px-2 py-1 rounded">
+            <h3 className="nav-li-css mt-auto text-[35px] w-fit font-headerFont text-amber-50 bg-[#00000040] px-2 py-1 rounded">
               creative
             </h3>
           </div>
 
-          <div className="block lg:hidden bg-[#00000028]">
+          <div className="block lg:hidden bg-[#00000040]">
             <LiveDate />
           </div>
 
@@ -39,12 +39,12 @@ const Banner = () => {
 
         <div>
           {/* This LiveDate will show only on lg and above */}
-          <div className="hidden lg:block bg-[#00000028]">
+          <div className="hidden lg:block bg-[#00000040]">
             <LiveDate />
           </div>
 
           <div className="pt-1 md:pt-5 lg:pt-20 flex">
-            <h2 className="text-white mx-auto text-center lg:ml-auto text-[calc(2dvh+2px)] sm:text-[calc(2dvh+5px)] lg:text-[calc(2dvh+7px)] font-headerFont  max-w-2xl bg-[#00000028]">
+            <h2 className="text-white mx-auto text-center lg:ml-auto text-[calc(2dvh+2px)] sm:text-[calc(2dvh+5px)] lg:text-[calc(2dvh+7px)] font-headerFont  max-w-2xl bg-[#00000040]">
               <span className="text-transparent ">transparent gap</span> me
               Famim Hayat, I am a react developer and UX/UI designer from{" "}
               <span className="underline"> BANGLADESH</span>. I have many years
