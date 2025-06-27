@@ -4,7 +4,7 @@ import LiveDate from "./LiveDate";
 const Banner = () => {
   return (
     <section className="px-3 overflow-hidden">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-5 h-[calc(100dvh-90px)]">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 sm:gap-5 h-[calc(100dvh-90px)]">
         <div className="flex flex-col">
           {/* This LiveDate will show only before lg */}
           <div className="mt-5 block ">
@@ -43,13 +43,13 @@ const Banner = () => {
             <LiveDate />
           </div>
 
-          <div className="pt-5 flex">
-            <h2 className="text-white mx-auto text-center lg:ml-auto text-[calc(2dvh+10px)] font-headerFont  max-w-2xl bg-[#00000028]">
+          <div className="pt-1 md:pt-5 lg:pt-20 flex">
+            <h2 className="text-white mx-auto text-center lg:ml-auto text-[calc(2dvh+2px)] sm:text-[calc(2dvh+5px)] lg:text-[calc(2dvh+7px)] font-headerFont  max-w-2xl bg-[#00000028]">
               <span className="text-transparent ">transparent gap</span> me
               Famim Hayat, I am a react developer and UX/UI designer from{" "}
-              <span className="underline"> BANGLADESH</span>. I have many years of experience in
-              consulting in all areas of digital. I love minimal and brutalist
-              design. I love nature, pizza and art.
+              <span className="underline"> BANGLADESH</span>. I have many years
+              of experience in consulting in all areas of digital. I love
+              minimal and brutalist design. I love nature, pizza and art.
             </h2>
           </div>
         </div>
