@@ -28,10 +28,10 @@ const LiveDate = () => {
     }, []);
 
     return (
-        <div className="flex items-center justify-center pt-5 py-5 lg:py-0 lg:pt-20 ">
+        <div className="flex items-center justify-center pt-10  :py-0 lg:pt-10 ">
             <div className="text-white text-5xl md:text-6xl font-bold  rounded-lg " >
-                <h3 className=' flex flex-row md:flex-col lg:flex-row items-end gap-3'>
-                    <span className='md:text-[120px] lg:text-[180px]  xl:text-[280px] text-secondaryColor font-headerFont md:w-[150px] lg:w-[200px] xl:w-[300px]'> {currentDay} </span>
+                <h3 className=' flex items-end gap-3'>
+                    <span className='text-[150px] md:text-[180px] lg:text-[220px]  xl:text-[280px] text-secondaryColor font-headerFont md:w-[150px] lg:w-[200px] xl:w-[300px]'> {currentDay} </span>
                     <span className='text-2xl font-headerFont font-light'>
                         {month},</span>
                     <span className='text-2xl font-headerFont font-light'>
