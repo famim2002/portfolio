@@ -19,7 +19,7 @@ const Banner = () => {
 
           <div className="origin-top-left mt-auto">
             <h1
-              className="text-[calc(5dvh+50px)] sm:text-[calc(5dvh+50px)] md:text-[calc(5dvh+80px)] lg:text-[calc(5dvh+110px)] xl:text-[calc(5dvh+130px)] 2xl:text-[calc(5dvh+180px)] pt-20 leading-25 sm:leading-35 md:leading-42 lg:leading-52 bg-[#00000028]"
+              className="text-[calc(10dvh+5px)] sm:text-[calc(5dvh+50px)] md:text-[calc(5dvh+70px)] lg:text-[calc(5dvh+110px)] xl:text-[calc(5dvh+130px)] 2xl:text-[calc(5dvh+180px)]  pt-5 sm:pt-10 md:pt-20 leading-20 sm:leading-35 sm:text-center md:leading-42   lg:leading-52 lg:text-left bg-[#00000028]"
               style={{
                 fontFamily: "Spacema",
                 color: "#f7f6f5",
@@ -43,8 +43,8 @@ const Banner = () => {
             <LiveDate />
           </div>
 
-          <div className="pt-5">
-            <h2 className="text-white text-[calc(2dvh+10px)] font-headerFont  max-w-2xl bg-[#00000028]">
+          <div className="pt-5 flex">
+            <h2 className="text-white mx-auto lg:ml-auto text-[calc(2dvh+10px)] font-headerFont  max-w-2xl bg-[#00000028]">
               <span className="text-transparent">kdskadsa</span> Lorem ipsum
               dolor sit amet consectetur adipisicing elit. Facilis distinctio
               dolorum ipsum iusto illum! Maiores, accusantium. Numquam
