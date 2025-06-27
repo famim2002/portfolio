@@ -13,33 +13,43 @@ const Banner = () => {
             </h3>
           </div>
 
-          <div className="block lg:hidden">
+          <div className="block lg:hidden bg-[#00000028]">
             <LiveDate />
           </div>
 
           <div className="origin-top-left mt-auto">
-            <h2
-              className="text-[calc(5dvh+50px)] sm:text-[140px] md:text-[180px] lg:text-[220px] pt-20 leading-25 sm:leading-35 md:leading-42 lg:leading-52"
+            <h1
+              className="text-[calc(5dvh+50px)] sm:text-[calc(5dvh+50px)] md:text-[calc(5dvh+80px)] lg:text-[calc(5dvh+110px)] xl:text-[calc(5dvh+130px)] 2xl:text-[calc(5dvh+180px)] pt-20 leading-25 sm:leading-35 md:leading-42 lg:leading-52 bg-[#00000028]"
               style={{
                 fontFamily: "Spacema",
                 color: "#f7f6f5",
                 letterSpacing: "0.1px",
               }}
             >
-              designer
-              <span className="pl-3 font-regularFont font-extrabold text-[40px] md:text-[60px] lg:text-[100px] text-amber-100">
-                &
+              <span>
+                designer
+                <span className="pl-3 font-regularFont font-extrabold text-[40px] md:text-[60px] lg:text-[100px] text-amber-100">
+                  &
+                </span>
               </span>
-              <br />
-              developer
-            </h2>
+              <span> developer</span>
+            </h1>
           </div>
         </div>
 
         <div>
           {/* This LiveDate will show only on lg and above */}
-          <div className="hidden lg:block">
+          <div className="hidden lg:block bg-[#00000028]">
             <LiveDate />
+          </div>
+
+          <div className="pt-5">
+            <h2 className="text-white text-[calc(2dvh+10px)] font-headerFont  max-w-2xl bg-[#00000028]">
+              <span className="text-transparent">kdskadsa</span> Lorem ipsum
+              dolor sit amet consectetur adipisicing elit. Facilis distinctio
+              dolorum ipsum iusto illum! Maiores, accusantium. Numquam
+              reiciendis in temporibus!
+            </h2>
           </div>
         </div>
       </div>
