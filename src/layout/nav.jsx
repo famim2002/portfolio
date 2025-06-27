@@ -54,7 +54,7 @@ const Nav = () => {
               <li>
                 <Link
                   to="/contact"
-                  className=" text-[20px] h-full px-2 text-white font-headerFont bg-brandColor transition-all hover:text-white md:text-[23px] lg:text-[30px]"
+                  className=" text-[20px] h-full px-2 text-white font-headerFont  bg-transparent transition-all  hover:bg-textColor   hover:text-primaryColor md:text-[23px] lg:text-[30px] "
                 >
                   contact
                 </Link>
