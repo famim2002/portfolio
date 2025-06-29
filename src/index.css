@@ -21,6 +21,12 @@
   font-style: normal;
 }
 
+*::selection {
+  background-color: rgb(242, 242, 242);
+  
+  color: rgb(37, 37, 37);
+}
+
 a {
   display: inline-block;
 }
