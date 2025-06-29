@@ -51,13 +51,13 @@ const CustomCursor = () => {
       {/* Outline circle */}
       <div
         ref={outlineRef}
-        className="fixed top-0 left-0 z-40 w-20 h-20 border-[6px] border-white rounded-full pointer-events-none"
+        className="fixed top-0 left-0 z-40 w-10 sm:w-20 h-10 sm:h-20  border-[6px] border-white rounded-full pointer-events-none"
       />
 
       {/* Extra filled circle */}
       <div
         ref={extraCircleRef}
-        className="fixed top-0 left-0 z-30 w-10 h-10 bg-white opacity-20 rounded-full pointer-events-none"
+        className="fixed top-0 left-0 z-30 w-5 sm:w-10 h-5 sm:h-10 bg-white opacity-20 rounded-full pointer-events-none"
       />
     </>
   );
