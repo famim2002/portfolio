@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import Header from './Common Components/Header'
 
 const AboutMe = () => {
   const sectionRef = useRef(null);
@@ -30,7 +31,7 @@ const AboutMe = () => {
       } text-white text-xl bg-[#0d0d0d] min-h-screen flex items-center justify-center px-6`}
     >
       <div className="container">
-        
+        <Header title={"about me"} className={"text-center"} />
         <p className="text-2xl  leading-relaxed font-regularFont text-textColor text-center">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti a reiciendis quaerat quia esse nam culpa at reprehenderit ipsam. Ipsa illo nostrum magni cupiditate aperiam sequi exercitationem perspiciatis nobis autem esse? Odio in aut temporibus, ad incidunt dolor tempora, iure, suscipit consequatur minus asperiores ducimus ipsam dolorum sint soluta beatae!
         </p>
