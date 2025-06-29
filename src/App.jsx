@@ -6,22 +6,28 @@ import Demo from "./pages/Demo";
 import Contact from "./pages/Contact";
 import Layout from "./layout/Index";
 
-import About from "./pages/About"
+import About from "./pages/About";
+import CustomCursor from "./components/Home/Common Components/CustomCursor";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="services" element={<Services />} />
-          <Route path="demo" element={<Demo />} />
-          <Route path="contact" element={<Contact />} />
-        </Route>
-        <Route path="*" element={<Error404 />} />
-      </Routes>
-    </BrowserRouter>
+    <>
+      <>
+        <CustomCursor />
+      </>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="about" element={<About />} />
+            <Route path="services" element={<Services />} />
+            <Route path="demo" element={<Demo />} />
+            <Route path="contact" element={<Contact />} />
+          </Route>
+          <Route path="*" element={<Error404 />} />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 

@@ -26,7 +26,6 @@ const AboutMe = () => {
 
   return (
     <>
-   
       <section
         ref={sectionRef}
         className={`transition-all duration-1000 ease-in-out transform ${
@@ -35,7 +34,7 @@ const AboutMe = () => {
       >
         <div className="container">
           <Header title={"about me"} className={"text-center"} />
-          <p className="text-2xl  leading-relaxed font-regularFont text-textColor text-center">
+          <p className="zoom-text text-2xl  leading-relaxed font-regularFont text-textColor text-center">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti a
             reiciendis quaerat quia esse nam culpa at reprehenderit ipsam. Ipsa
             illo nostrum magni cupiditate aperiam sequi exercitationem
