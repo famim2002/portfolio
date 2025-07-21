@@ -9,7 +9,7 @@ const Nav = () => {
 
   return (
     <>
-      <nav className=" bg-[#0000002b] mx-auto px-6 py-6 border-b-1 border-[#ffffff4e]">
+      <nav className=" bg-[#00000038] mx-auto px-6 py-6 border-b-1 border-[#ffffff79]">
         <div className="flex items-center justify-between">
           <div>
             <h2 className="text-[25px] font-bold text-white bg-[#000000bf] font-headerFont">

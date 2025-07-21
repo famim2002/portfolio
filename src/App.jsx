@@ -8,12 +8,14 @@ import Layout from "./layout/Index";
 
 import About from "./pages/About";
 import CustomCursor from "./components/Home/Common Components/CustomCursor";
+import BackToTopButton from "./components/Home/Common Components/BackToTopButton"
 
 function App() {
   return (
     <>
       <>
         <CustomCursor />
+        <BackToTopButton />
       </>
       <BrowserRouter>
         <Routes>

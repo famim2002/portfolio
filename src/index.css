@@ -11,7 +11,7 @@
 
   --font-headerFont: "Righteous", sans-serif;
   --font-regularFont: "Caudex", serif;
-  --font-tagFont: ;
+  
 }
 
 @font-face {
@@ -62,7 +62,13 @@ a {
 }
 
 .banner-back {
-  background: url("../public/portfolio-background.webp") no-repeat fixed center / cover;
+  background: url("../public/ChatGPT\ Image\ Jul\ 16\,\ 2025\,\ 12_29_17\ PM.png") no-repeat fixed center / cover;
   border-radius: 20px;
   height: 100dvh;
+}
+
+.component-back {
+  background: url("../public/portfolio-background.webp") no-repeat fixed center / cover;
+  border-radius: 20px;
+  height: fit-content;
 }
